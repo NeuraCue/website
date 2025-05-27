@@ -1,0 +1,12 @@
+# Set default behavior to automatically normalize line endings
+* text=auto
+
+# Explicitly declare text files to avoid CRLF/LF issues
+*.html text
+*.css text
+*.js text
+*.md text
+*.json text
+
+# Ensure GitHub renders Markdown correctly
+README.md linguist-documentation
