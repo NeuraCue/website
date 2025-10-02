@@ -1,50 +1,36 @@
-# NeuraCue Website
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-This is the official public-facing website for [NeuraCue](https://neuracue.com) — an AI-powered productivity platform providing geofenced reminders and contextual task cues.
+## Getting Started
 
-The site is hosted on **GitHub Pages** at a custom domain (`neuracue.com`) and serves as the landing and compliance site for the NeuraCue Android application.
-
-This repo is public, while the core NeuraCue Android app is private under the same organization.
-
----
-
-## 🌐 Live Website
-
-🔗 [https://neuracue.com](https://neuracue.com)
-
----
-
-## 📁 Project Contents
-
-| File/Directory     | Description                                                                 |
-|--------------------|-----------------------------------------------------------------------------|
-| `index.html`       | Landing page introducing NeuraCue                                           |
-| `privacy.html`     | Required privacy policy for Firebase and Google Play compliance             |
-| `CNAME`            | GitHub Pages domain configuration for `neuracue.com`                        |
-| `robots.txt`       | SEO: instructs crawlers and links to sitemap                                |
-| `sitemap.xml`      | Search engine indexing support for main pages                               |
-| `favicon.ico`      | Website favicon                                                             |
-| `assets/`          | Static assets (e.g. logo.png)                                               |
-
----
-
-## 🚀 Deployment Instructions
-
-This project uses **GitHub Pages** for automatic deployment from the `main` branch.
-
-To update the site content:
+First, run the development server:
 
 ```bash
-git clone https://github.com/NeuraCue/website.git
-cd website
-# Make changes to HTML, CSS, assets, etc.
-git commit -am "Update site content"
-git push origin main
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
----
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## License
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-Content in this repository is licensed under the [CC BY-NC-ND 4.0 License](https://creativecommons.org/licenses/by-nc-nd/4.0/).  
-NeuraCue™ and the NeuraCue logo are trademarks of Jon DeMaagd. All rights reserved.
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

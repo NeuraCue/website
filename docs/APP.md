@@ -19,9 +19,27 @@
     - /terminal-setup
     - /ide
     - /init -> gives claude context of current project
+- npx create-next-app@latest . --typescript --tailwind --app --no-src-dir --import-alias "@/*"
 
 ## MCP
 
 - claude mcp add playwright npx @playwright/mcp@latest -s user
 - /mcp
 - open browser on cnn.com
+- [Model Context Protocol](https://modelcontextprotocol.io/docs/getting-started/intro)
+- [Context7 MCP](https://context7.com/)
+    - claude mcp add --transport http context7 https://mcp.context7.com/mcp --header 
+      "CONTEXT7_API_KEY: YOUR_API_KEY" --scope project
+    - claude mcp add context7 -- npx -y @upstash/context7-mcp --api-key YOUR_API_KEY
+
+## Hook
+
+- python3 -m venv venv
+- source venv/bin/activate
+- pip install pygame
+- python3 play_sound.py
+- /hook ->
+
+## Notifications
+
+- https://ntfy.sh/

@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(claude mcp add:*)",
+      "Bash(npm install:*)",
+      "Bash(curl:*)",
+      "Bash(cat:*)",
+      "Bash(python3:*)",
+      "Bash(pip install:*)",
+      "Bash(pip3 install:*)",
+      "Bash(afplay:*)",
+      "Read(//Users/jdemaagd/Library/**)",
+      "Read(//Users/jdemaagd/**)",
+      "Bash(claude mcp:*)",
+      "Bash(npx:*)"
+    ],
+    "deny": [],
+    "ask": []
+  },
+  "hooks": {
+    "PostToolUse": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "afplay /Users/jdemaagd/REPOS/NeuraCue/website/ulala.wav"
+          }
+        ]
+      }
+    ]
+  }
+}
